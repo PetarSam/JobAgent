@@ -9,3 +9,5 @@ To start:
   2. open your terminal
   3. navigate to the app.py
   4. run "python app"
+
+#Notice - for the script to work it is supposed to be open unstoppably hence deployed version is comming soon

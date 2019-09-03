@@ -13,9 +13,6 @@ soup = bs.BeautifulSoup(sauce,'lxml')
 
 body = soup.find('body').get_text().lower().split()
 
-
-content = 'Your job-agent has found match on the website: urltowebsite'
-
 def send_email(link,matches):
     email = smtplib.SMTP('smtp.gmail.com', 587)
     email.ehlo()

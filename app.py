@@ -8,8 +8,6 @@ link= input('Input your link: ')
 keywords= input('Input your keywords: ').lower().split()
 remail = input('Input your email: ')
 
-
-
 def make_soup(link):
     sauce = urllib.request.urlopen(link)
     soup = bs.BeautifulSoup(sauce,'lxml')

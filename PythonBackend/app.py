@@ -9,7 +9,7 @@ URI = "mongodb+srv://petarsam:"+process.env.PASSWORD+"@cluster0-gp7st.gcp.mongod
 def send_email(link, matches, remail):
     email = smtplib.SMTP('smtp.gmail.com', 587)
     email.ehlo()
-    email.starttls()
+    email.starttls() 
     email.ehlo()
     email.login('jobagent.matcher@gmail.com','yqoczgfebvsgwjia')
     subject = f"Job {matches} Found"

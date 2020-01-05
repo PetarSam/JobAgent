@@ -12,4 +12,4 @@ To run backend code enter the PythonBackend directory and enter:
 `source venv/bin/activate` and then `python app.py`
 
 
-### Note: If you want the code running on your machine you need to add your own MONGODB uri
+### Note: If you want the code running on your machine you need to add your own MongoDB URI

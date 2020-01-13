@@ -2,6 +2,12 @@
 Job Agent which tracks if there are new openings on certain company website
 Fullstack project developed with JS, NodeJS and Python.
 
+## Add new listener
+![alt text](https://ibb.co/gDN66Sq)
+
+## If there is a match you could expect this kind of response
+![alt text](https://ibb.co/zhsCnv7q)
+
 ### Note: If you want the code running on your machine you need to add your own MongoDB URI
 
 To run client navigate to the ReactFrontend directory and enter:  
